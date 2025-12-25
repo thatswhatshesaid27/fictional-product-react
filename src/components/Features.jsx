@@ -76,7 +76,7 @@ const FeatureCard = ({
         ${hovered ? aura : ""}
       `}
     >
-      {/* Subtle inner stone influence */}
+      
       <div
         className={`
           absolute inset-0 opacity-0 transition-opacity duration-300
@@ -85,7 +85,7 @@ const FeatureCard = ({
         `}
       />
 
-      {/* Cursor-following stone */}
+    
       {hovered && (
         <motion.div
           animate={{ x: pos.x, y: pos.y }}
@@ -100,7 +100,6 @@ const FeatureCard = ({
         />
       )}
 
-      {/* CONTENT */}
       <div className="relative z-10">
         <h3 className="text-2xl font-semibold tracking-wide mb-2 text-white">
           {title}
@@ -127,14 +126,14 @@ const FeatureCard = ({
 const Features = () => {
   return (
     <section id="features" className="relative py-32 bg-black overflow-hidden">
-      {/* 🌌 SAME AMBIENT BG AS TESTIMONIALS */}
+    
       <div className="absolute inset-0 pointer-events-none">
         <div className="absolute -top-48 left-1/4 w-[700px] h-[700px] bg-purple-600/20 blur-[220px]" />
         <div className="absolute bottom-0 right-1/4 w-[600px] h-[600px] bg-indigo-600/20 blur-[200px]" />
       </div>
 
       <div className="relative max-w-7xl mx-auto px-6">
-        {/* Section Title */}
+        
         <h2 className="text-4xl md:text-5xl text-center mb-6 font-marvel tracking-widest text-[#D4AF37]">
           POWER IS CONTROLLED
         </h2>

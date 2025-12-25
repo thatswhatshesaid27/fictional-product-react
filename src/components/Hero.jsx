@@ -1,10 +1,10 @@
 import { motion, useScroll, useTransform } from "framer-motion";
 import { useRef, useState } from "react";
-import FormModal from "./FormModal"; // 👈 import modal
+import FormModal from "./FormModal";
 
 const Hero = () => {
   const ref = useRef(null);
-  const [open, setOpen] = useState(false); // 👈 modal state
+  const [open, setOpen] = useState(false); 
 
   // Scroll-based rotation
   const { scrollYProgress } = useScroll({

@@ -20,14 +20,14 @@ const testimonials = [
 const Testimonials = () => {
   return (
     <section className="relative py-32 bg-black overflow-hidden" id="testimonials">
-      {/* 🌌 Ambient Purple Background */}
+      
       <div className="absolute inset-0 pointer-events-none">
         <div className="absolute -top-40 left-1/4 w-[700px] h-[700px] bg-purple-600/20 blur-[220px]" />
         <div className="absolute bottom-0 right-1/4 w-[600px] h-[600px] bg-indigo-600/20 blur-[200px]" />
       </div>
 
       <div className="relative max-w-6xl mx-auto px-6">
-        {/* Section Heading */}
+        
         <h2 className="text-4xl md:text-5xl text-center mb-6 font-marvel tracking-widest text-[#D4AF37]">
           TRUSTED BY THOSE WHO COMMAND POWER
         </h2>
@@ -36,7 +36,7 @@ const Testimonials = () => {
           When intelligence and strength agree, balance is inevitable.
         </p>
 
-        {/* Testimonials Grid */}
+    
         <div className="grid md:grid-cols-2 gap-12">
           {testimonials.map((t, i) => (
             <motion.div

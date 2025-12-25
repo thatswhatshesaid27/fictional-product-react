@@ -19,10 +19,10 @@ const FormModal = ({ open, onClose }) => {
             onClick={(e) => e.stopPropagation()}
             className="relative w-full max-w-lg rounded-3xl bg-[#0f0f0f] border border-gray-800 p-10 overflow-hidden"
           >
-            {/* Ambient Glow */}
+            
             <div className="absolute -top-20 left-1/3 w-[300px] h-[300px] bg-purple-600/30 blur-[140px]" />
 
-            {/* Close Button */}
+          
             <button
               onClick={onClose}
               className="absolute top-4 right-4 text-gray-400 hover:text-white transition"
@@ -30,7 +30,7 @@ const FormModal = ({ open, onClose }) => {
               ✕
             </button>
 
-            {/* Header */}
+        
             <h3 className="text-2xl font-marvel tracking-widest text-[#D4AF37] mb-2">
               ACCEPT THE OUTCOME
             </h3>
@@ -39,7 +39,7 @@ const FormModal = ({ open, onClose }) => {
               Provide your details. The system will respond.
             </p>
 
-            {/* Form */}
+            
             <form className="space-y-5 font-gauntlet">
               <input
                 type="text"
