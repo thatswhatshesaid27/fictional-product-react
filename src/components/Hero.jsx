@@ -93,18 +93,7 @@ const Hero = () => {
               </button>
 
           
-              <button
-                className="
-                  px-8 py-3 rounded-lg
-                  border border-gray-600
-                  text-gray-300
-                  hover:bg-white/10
-                  transition
-                  font-gauntlet
-                "
-              >
-                See more
-              </button>
+           
             </motion.div>
           </div>
 
