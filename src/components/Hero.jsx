@@ -33,6 +33,7 @@ const Hero = () => {
       <section
         ref={ref}
         className="relative pt-32 overflow-hidden bg-black text-white"
+        id="hero"
       >
       
         <div className="absolute inset-0 pointer-events-none">

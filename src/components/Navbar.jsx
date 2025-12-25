@@ -17,7 +17,8 @@ const Navbar = () => {
         <div className="relative max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
           {/* LOGO */}
           <div className="font-marvel tracking-widest text-[#D4AF37] text-xl">
-            GAUNTLET
+            <a href="#hero"> GAUNTLET</a>
+           
           </div>
 
           {/* DESKTOP NAV */}
